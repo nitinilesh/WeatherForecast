@@ -135,10 +135,6 @@ This project is licensed under the MIT License.
 
 Frontend Developer | React | TypeScript | Java | Spring Boot
 
-GitHub: https://github.com/yourusername
-
-LinkedIn: https://linkedin.com/in/yourprofile
-
 ---
 
 ⭐ If you found this project useful, consider giving it a star!
