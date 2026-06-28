@@ -1,0 +1,33 @@
+* {
+  font-size: var(--font-size-sm);
+}
+
+.option-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--card-border);
+  padding: 0.25rem;
+  background-color: var(--primary-color);
+}
+
+.option-item.active {
+  color: var(--primary-blue);
+  background-color: var(--secondary-blue);
+}
+.option-item:hover {
+  background-color: var(--secondary-blue);
+  cursor: pointer;
+}
+
+.option-item-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 0.25rem;
+}

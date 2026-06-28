@@ -1,0 +1,56 @@
+:root {
+  /* Theme: Glassmorphic Light (Default) */
+  --bg-main: #f4f7fc;
+  --sidebar-bg: rgba(255, 255, 255, 0.65);
+  --card-bg: rgba(255, 255, 255, 0.7);
+  --card-border: rgba(255, 255, 255, 0.4);
+  --blur-radius: 1rem;
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  --shadow-md:
+    0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+
+  /* Brand Accents */
+  --primary-blue: #2563eb;
+  --secondary-blue: #f2f3f8;
+  --cyan-accent: #06b6d4;
+  --orange-warn: #f97316;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --font-family: "Inter", sans-serif, -apple-system, "Segoe UI";
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+}
+
+[data-theme="dark"] {
+  /* Theme: Slate Dark */
+  --bg-main: #0b0f19;
+  --sidebar-bg: rgba(15, 23, 42, 0.65);
+  --card-bg: rgba(30, 41, 59, 0.7);
+  --card-border: rgba(255, 255, 255, 0.05);
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+}
+
+html {
+  font-family: var(--font-family);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  background-color: var(--bg-main);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
